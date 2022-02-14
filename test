@@ -6,7 +6,7 @@ const google = new Scraper({
   },
 });
 
-(async () => {
-  const results = await google.scrape('banana', 200);
-  console.log('results', results);
-})();
+var image_query = [req](async () => {
+    const results = await google.scrape(image_query, 1);
+    console.log('results', results);
+  })();
